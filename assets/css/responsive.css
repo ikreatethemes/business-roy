@@ -1,0 +1,328 @@
+@media only screen  and (max-width: 1500px) {
+    
+}
+
+@media (max-width: 1200px) {
+
+    .nav-classic .site-branding h1 {
+        font-size: 25px;
+    }
+    
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 992px) {
+
+    .container {
+        max-width: 100%;
+    }
+    
+    /**
+     * Top Header
+    */
+    .businessroytop_bar {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .top-bar-menu > *,
+    .top-bar-menu ul > *{
+        float: none;
+    }
+
+    .top-bar-menu {
+        float: none !important;
+    }
+
+    .banner-slider .slider-item {
+        height: 450px;
+    }
+
+
+    /**
+     * Main Menu
+    */
+    .nav-classic .header-nav-toggle,
+    .nav-classic-wrap .header-nav-toggle{
+        display: block;
+    }
+
+    .nav-classic .box-header-nav,
+    .nav-classic-wrap .box-header-nav{
+        display: none;
+        position: absolute;
+        z-index: 9;
+        background-color: #f9f9f9;
+        left: 0;
+        right: 0;
+    }
+
+    .nav-classic .nav-wrap{
+        padding: 0;
+        position: relative;
+    }
+
+    .box-header-nav>.main-menu {
+        padding: 0;
+        margin:0;
+        max-height: 350px;
+        overflow: scroll;
+    }
+
+    .box-header-nav .main-menu>ul>.page_item, 
+    .box-header-nav .main-menu>.menu-item {
+        float: none;
+        width: 100%;
+        border-bottom: 1px dotted #f1f0f0;
+    }
+
+    .box-header-nav .main-menu .page_item a, 
+    .box-header-nav .main-menu>.menu-item>a {
+        padding:8px 10px;
+        width:100%;
+    }
+
+    span.sub-toggle {
+        display: block;
+    }
+
+    .box-header-nav .main-menu .page_item.page_item_has_children>a::after, 
+    .box-header-nav .main-menu>.menu-item.menu-item-has-children>a::after,
+    .box-header-nav .main-menu .children>.page_item.page_item_has_children>a::after, 
+    .box-header-nav .main-menu .sub-menu>.menu-item.menu-item-has-children>a::after{
+        content: none;
+    }
+
+    .box-header-nav .main-menu .children, 
+    .box-header-nav .main-menu .sub-menu{
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+        position: relative;
+        left: 0;
+        box-shadow: none;
+        padding-left: 10px;
+        display: none;
+        transform:none;
+    }
+
+    .box-header-nav .main-menu .children .children, 
+    .box-header-nav .main-menu .sub-menu .sub-menu {
+        left: 0;
+        transform: none;
+        box-shadow: none;
+        padding-left: 10px;
+    }
+
+    .box-header-nav .main-menu .children>.page_item:hover>a, 
+    .box-header-nav .main-menu .sub-menu>.menu-item:hover>a {
+        background-color: transparent;
+        color: #165da5;
+        border-bottom: 1px dotted hsla(0, 0%, 95%, 0.93);
+        padding: 7px 10px;
+    }
+
+    .box-header-nav .main-menu .children>.page_item>a, 
+    .box-header-nav .main-menu .sub-menu>.menu-item>a{
+        padding: 7px 10px;
+    }
+    
+
+    .nav-classic .box-header-nav{
+        top: 34px;
+    }
+
+    /**
+     * Features Services Area
+    */
+    .businessroyservices .feature-list .box figure img,
+    .articlesListing .article .blog-post-thumbnail .post-thumbnail img{
+        width: 100%;
+    }
+
+
+    .owl-carousel .owl-nav button.owl-prev{
+        left: 0;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .owl-carousel .owl-nav button.owl-next{
+        right: 0;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    /**
+     * Footer Area
+    */
+    .sub_footer ul.sp_socialicon {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .businessroycopyright {
+        text-align: center;
+    }
+
+}
+
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+ 
+    .container {
+        max-width: 100%;
+    }
+
+    .section-tagline {
+        width: 100%;
+    }
+
+    /**
+     * Banner Slider
+    */
+
+    .banner-slider .slider-item .slider-content .slider-title {
+        font-size: 35px;
+        color: #fff;
+        margin-bottom: 0;
+    }
+
+
+    /**
+     * About Section
+    */
+    .about_us_front .achivement-items {
+        text-align: center;
+    }
+
+    .banner-slider .slider-item {
+        height: 350px;
+    }
+
+    .businessroyportfolio-cat-name {
+        margin-bottom: 10px;
+    }
+    
+    .breadcrumb {
+        padding: 50px 0;
+    }
+    .breadcrumb_wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .breadcrumb h2 {
+        text-align: center;
+        display:block;
+        margin-bottom: 10px;
+    }
+
+    .breadcrumb nav {
+        display: inline-block;
+        text-align: center;
+    }
+
+
+    [data-layout*="masonry2"] .article {
+        width: 100%;
+    }
+
+    
+    /**
+     * Portfolio
+    */
+    .businessroyportfolio{
+        width: 50%;
+        padding: 4px;
+    }
+
+    .businessroyportfolio-caption{
+        background: none !important;
+        opacity: 1;
+    }
+
+    .businessroyportfolio-caption h3,
+    .businessroyportfolio-caption a.businessroyportfolio-link,
+    .businessroyportfolio-caption a.businessroyportfolio-image{
+        -ms-transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    .businessroyportfolio-caption h3{
+        background: rgba(0,0,0,0.2);
+        padding: 10px;
+        left: 0;
+        right: 0;
+        top: 0;
+        text-align: center;
+    }
+
+    .businessroyportfolio-caption a{
+        right: 0;
+        bottom: 0;
+        margin: 0 5px;
+    }
+
+    .businessroyportfolio-caption a.businessroyportfolio-image{
+        right: 46px;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 500px) {
+
+    .nav-classic .site-branding{
+        width: 100%;
+        left:0;
+        right:0;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .nav-classic .header-nav-toggle {
+        position: relative;
+        z-index: 9;
+        right: 20px;
+        top: 20px;
+    }
+
+    .nav-classic .header-nav-toggle div {
+        background-color: #fff;
+    }
+
+    .nav-classic .site-branding a:before,
+    .nav-classic .site-branding a:after{
+        display: none;
+    }
+
+    .nav-classic .header-nav-toggle {
+        right: 10px;
+        top: 20px;
+    }
+
+
+    .calltoaction_promo_wrapper .calltoaction_button_wrap .btn-border,
+    .banner-slider .slider-item .slider-content .btn-area .btn-border {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .about_us_front .achivement-items ul li {
+        margin-right: 0;
+        padding-right: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    .businessroyportfolio {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+}
